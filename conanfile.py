@@ -15,6 +15,7 @@ class PythonConan(ConanFile):
     generators = "make"
     build_requires = (\
       "zlib/1.2.11",
+      "bzip2/1.0.8",
       "openssl/1.1.1d@_/_",
       "libffi/3.2.1@bincrafters/stable"
     )

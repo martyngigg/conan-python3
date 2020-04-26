@@ -7,7 +7,6 @@ https://www.python.org.
 
 It is currently missing the following builtin C modules:
 
-* `_bz2`
 * `_curses`
 * `_curses_panel`
 * `_dbm`
@@ -16,4 +15,4 @@ It is currently missing the following builtin C modules:
 * `_sqlite3`
 * `readline`
 
-Also the recipe has no test instructions.
+The recipe also has no test instructions yet.
