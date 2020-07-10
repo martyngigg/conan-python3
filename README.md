@@ -11,7 +11,6 @@ It is currently missing the following builtin C modules:
 * `_curses_panel`
 * `_dbm`
 * `_gdbm`
-* `_lzma`
 * `_sqlite3`
 
 The recipe also has no test instructions yet.
