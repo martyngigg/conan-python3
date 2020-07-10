@@ -40,7 +40,7 @@ class PythonConan(ConanFile):
             "--without-ensurepip",
             "--with-openssl={}".format(self.deps_cpp_info["openssl"].rootpath)
         ]
-        autotools.configure(configure_dir="Python-{}".format(self.version),
+        autotools.configure(configure_dir=f"{self.source_folder}/Python-{self.version}",
                             args=flags,
                             vars=build_vars)
         autotools.make(vars=build_vars)
