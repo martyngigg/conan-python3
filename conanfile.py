@@ -14,10 +14,11 @@ class PythonConan(ConanFile):
     default_options = {}
     generators = "make"
     build_requires = (\
-      "zlib/1.2.11",
       "bzip2/1.0.8",
+      "libffi/3.2.1@bincrafters/stable",
       "openssl/1.1.1d@_/_",
-      "libffi/3.2.1@bincrafters/stable"
+      "readline/7.0@bincrafters/stable",
+      "zlib/1.2.11",
     )
 
     # Private variables

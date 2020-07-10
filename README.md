@@ -13,6 +13,5 @@ It is currently missing the following builtin C modules:
 * `_gdbm`
 * `_lzma`
 * `_sqlite3`
-* `readline`
 
 The recipe also has no test instructions yet.
